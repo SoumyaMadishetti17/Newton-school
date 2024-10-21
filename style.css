@@ -1,0 +1,29 @@
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .head{
+            text-align: left;
+            margin: 3em;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1em;
+            flex-wrap: wrap;
+        }
+        .main .videos{
+            width: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .main .videos>iframe{
+
+            width: 400px;
+            border-radius: 2em;
+        }
